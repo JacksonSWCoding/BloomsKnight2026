@@ -6,7 +6,7 @@ from backend import run_stress_test
 
 st.set_page_config(page_title="Macro-Shock Portfolio Stress Tester", layout="wide")
 
-st.title("💰 Institutional-Grade Portfolio Stress Tester")
+st.title("💰 Quantitative Portfolio Risk Analytics Engine")
 st.subheader("Bloomberg FinTech Challenge Submission")
 st.write("Upload portfolio to simulate immediate catastrophic drawdowns against major historical macroeconomic shocks.")
 
