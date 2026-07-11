@@ -1,3 +1,6 @@
+# before i ran the code, i went in terminal -> command prompt: pip install pandas yfinance numpy streamlit matplotlib seaborn
+# to run: terminal -> local -> streamlit run app.py
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -35,11 +38,11 @@ if uploaded_file is not None:
             with st.spinner("Fetching historical market data and calculating risk metrics..."):
                 results, total_value = run_stress_test(portfolio_df)
 
-            # --- 8. Portfolio Statistics ---
+           
             st.markdown("### 📊 Portfolio Statistics")
             stat_cols = st.columns(5)
 
-            # Calculate metrics
+            
             num_holdings = len(portfolio_df)
             max_pos_row = portfolio_df.loc[portfolio_df['Total Value'].idxmax()]
             min_pos_row = portfolio_df.loc[portfolio_df['Total Value'].idxmin()]
@@ -78,10 +81,10 @@ if uploaded_file is not None:
 
             st.markdown("---")
 
-            # --- 5. Timeline Implementation ---
+           
             st.markdown("### Historical Scenarios Timeline")
 
-            # Custom styled CSS timeline line (Fixed parameter name here)
+            
             st.markdown(
                 """
                 <div style="display: flex; justify-content: space-between; items-align: center; margin-bottom: 25px; padding: 20px; background-color: #1E222D; border-radius: 8px; border-left: 10px solid #31363F;">
@@ -116,7 +119,7 @@ if uploaded_file is not None:
             shock_names = []
             losses_pct = []
 
-            # Mapping keys to account for backend dictionary formatting
+            
             crisis_details = {
                 "Dot-Com Bubble": {
                     "cause": "Speculative tech equity bubble burst.",
@@ -146,7 +149,7 @@ if uploaded_file is not None:
             }
 
             for i, (scenario, metrics) in enumerate(results.items()):
-                # Extract clean core name to fetch descriptions safely
+                
                 core_name = scenario.split("\n\n")[0]
                 details = crisis_details.get(core_name,
                                              {"cause": "Historical macroeconomic shock scenario.", "duration": "N/A",
@@ -156,7 +159,7 @@ if uploaded_file is not None:
                 losses_pct.append(metrics['loss_percentage'])
 
                 with cols[i]:
-                    # --- 6. Expandable Cards ---
+                   
                     with st.expander(f" {core_name}", expanded=True):
                         is_loss = metrics['dollar_loss'] < 0
                         label_text = "Projected Loss" if is_loss else "Projected Gain"
@@ -176,7 +179,7 @@ if uploaded_file is not None:
             st.markdown("---")
             st.markdown("### Historical Comparison")
 
-            # --- Charting section with optimized font sizes ---
+            
             sns.set_theme(style="darkgrid")
             fig, ax = plt.subplots(figsize=(10, 5))
 
