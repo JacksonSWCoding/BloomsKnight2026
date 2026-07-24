@@ -33,7 +33,6 @@ The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload 
 ---
 
 ## Future Work
-## 🔮 Future Work & Roadmap
 
 ### 1. Predictive Black-Swan Scenario Modeling
 * **Custom Epidemic & Macro Stress Simulator:** Expand beyond historical backtesting by building a predictive factor model to simulate hypothetical black-swan events (e.g., severe global health outbreaks like Hantavirus, supply chain shocks, or geopolitical tensions).
