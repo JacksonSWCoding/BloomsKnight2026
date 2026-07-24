@@ -42,7 +42,7 @@ The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload 
 
 ### 2. Real-Time Data Pipeline & Streaming
 * **Live Market Feeds:** Integrate streaming WebSocket connections via Alpha Vantage or Financial Modeling Prep APIs to calculate true real-time portfolio valuations and intraday VaR metrics.
-* **Expanded Historical Repertoire:** Incorporate additional historical regimes including the 1997 Asian Financial Crisis, 1987 Black Monday, and custom interest rate hike trajectories.
+* **Expanded Historical Repertoire:** Incorporate additional historical regimes.
 
 ### 3. AI-Driven Portfolio Optimization & Automated Hedging
 * **Intelligent Risk Mitigation:** Leverage LLM integrations to analyze portfolio risk concentration and generate targeted, actionable hedging strategies (e.g., suggesting sector rotations or put option overlays to offset calculated Value at Risk).
