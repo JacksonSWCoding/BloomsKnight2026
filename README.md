@@ -1,4 +1,4 @@
-# 💰 Quantitative Portfolio Risk Analytics Engine
+# Quantitative Portfolio Risk Analytics Engine
 > **Bloomberg FinTech Challenge Submission**
 
 An institutional-grade portfolio risk dashboard built to stress-test custom equity portfolios against major historical macroeconomic crises in real time.
