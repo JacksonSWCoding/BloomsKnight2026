@@ -45,7 +45,7 @@ The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload 
 * **Expanded Historical Repertoire:** Incorporate additional historical regimes.
 
 ### 3. AI-Driven Portfolio Optimization & Automated Hedging
-* **Intelligent Risk Mitigation:** Leverage LLM integrations to analyze portfolio risk concentration and generate targeted, actionable hedging strategies (e.g., suggesting sector rotations or put option overlays to offset calculated Value at Risk).
+* **Intelligent Risk Mitigation:** Leverage LLM (Large Language Model) integrations to analyze portfolio risk concentration and generate targeted, actionable hedging strategies (e.g., suggesting sector rotations or put option overlays to offset calculated Value at Risk).
 * **Automated Rebalancing Engine:** Provide mean-variance optimization (Sharpe ratio maximization) to dynamically suggest optimal weight adjustments based on user risk tolerance.
 
 
