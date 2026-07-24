@@ -5,7 +5,7 @@ An institutional-grade portfolio risk dashboard built to stress-test custom equi
 
 ---
 
-## 📌 Overview
+## Overview
 The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload a custom CSV portfolio and instantly evaluate their downside exposure. Using live market data from `yfinance`, the engine calculates exact position weights and simulates how the portfolio would have performed during 5 catastrophic market shocks:
 * **Dot-Com Bubble** (2000–2002)
 * **2008 Financial Crisis** (2007–2009)
@@ -15,7 +15,7 @@ The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload 
 
 ---
 
-## ✨ Key Features
+## Key Features
 * **CSV Portfolio Ingestion:** Parses uploaded tickers and share quantities to dynamically compute total portfolio value and position weightings.
 * **Smart Cash-Proxy Fallback:** Automatically treats assets not yet publicly traded during historical shocks as cash (0% return impact) to ensure error-free calculations.
 * **Interactive Macro Timeline:** Features a custom HTML/CSS historical timeline highlighting key market regimes.
@@ -24,7 +24,7 @@ The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload 
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools
 * **Language:** Python
 * **Data Ingestion & Quantitative Logic:** `yfinance`, `pandas`, `numpy`
 * **Frontend UI & Layout:** `streamlit`, HTML/CSS
@@ -32,7 +32,7 @@ The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Installation
 Clone the repository and install the dependencies:
