@@ -32,6 +32,21 @@ The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload 
 
 ---
 
+## Future Work
+## 🔮 Future Work & Roadmap
+
+### 1. Predictive Black-Swan Scenario Modeling
+* **Custom Epidemic & Macro Stress Simulator:** Expand beyond historical backtesting by building a predictive factor model to simulate hypothetical black-swan events (e.g., severe global health outbreaks like Hantavirus, supply chain shocks, or geopolitical tensions).
+* **Multi-Factor Sensitivity Engine:** Train regression models on historical market regimes using `scikit-learn` to estimate sector-specific shock elasticities ($\beta$) across mobility, volatility, and supply chain metrics.
+* **Stochastic Monte Carlo Simulations:** Incorporate Geometric Brownian Motion (GBM) with custom shock drift parameters to generate probabilistic price distributions (5th–95th percentile drawdowns) over 30/60/90-day horizons.
+
+### 2. Real-Time Data Pipeline & Streaming
+* **Live Market Feeds:** Integrate streaming WebSocket connections via Alpha Vantage or Financial Modeling Prep APIs to calculate true real-time portfolio valuations and intraday VaR metrics.
+* **Expanded Historical Repertoire:** Incorporate additional historical regimes including the 1997 Asian Financial Crisis, 1987 Black Monday, and custom interest rate hike trajectories.
+
+### 3. AI-Driven Portfolio Optimization & Automated Hedging
+* **Intelligent Risk Mitigation:** Leverage LLM integrations to analyze portfolio risk concentration and generate targeted, actionable hedging strategies (e.g., suggesting sector rotations or put option overlays to offset calculated Value at Risk).
+* **Automated Rebalancing Engine:** Provide mean-variance optimization (Sharpe ratio maximization) to dynamically suggest optimal weight adjustments based on user risk tolerance.
 
 
 ---
