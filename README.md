@@ -1,24 +1,22 @@
-# BloomsKnight2026
-
-Quantitative Portfolio Risk Analytics Engine
-My Bloomberg FinTech Challenge Submission
+# 💰 Quantitative Portfolio Risk Analytics Engine
+> **Bloomberg FinTech Challenge Submission**
 
 An institutional-grade portfolio risk dashboard built to stress-test custom equity portfolios against major historical macroeconomic crises in real time.
 
-----------------------
+---
 
-The Overview
-The Quantitative Portfolio Risk Analytics Engine allows investors to upload a custom CSV portfolio and instantly evaluate their downside exposure. Using live market data from `yfinance`, the engine calculates exact position weights and simulates how the portfolio would have performed during 5 catastrophic market shocks:
-1) Dot-Com Bubble (2000–2002)
-2) 2008 Financial Crisis (2007–2009)
-3) 2018 Fed Rate Hike Selloff (Sep–Dec 2018)
-4) 2020 COVID Crash (Feb–Mar 2020)
-5) 2022 Inflation & Rate Shock (Jan–Oct 2022)
+## 📌 Overview
+The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload a custom CSV portfolio and instantly evaluate their downside exposure. Using live market data from `yfinance`, the engine calculates exact position weights and simulates how the portfolio would have performed during 5 catastrophic market shocks:
+* **Dot-Com Bubble** (2000–2002)
+* **2008 Financial Crisis** (2007–2009)
+* **2018 Fed Rate Hike Selloff** (Sep–Dec 2018)
+* **2020 COVID Crash** (Feb–Mar 2020)
+* **2022 Inflation & Rate Shock** (Jan–Oct 2022)
 
-----------------------
+---
 
- Key Features
-CSV Portfolio Ingestion: Parses uploaded tickers and share quantities to dynamically compute total portfolio value and position weightings.
+## ✨ Key Features
+* **CSV Portfolio Ingestion:** Parses uploaded tickers and share quantities to dynamically compute total portfolio value and position weightings.
 * **Smart Cash-Proxy Fallback:** Automatically treats assets not yet publicly traded during historical shocks as cash (0% return impact) to ensure error-free calculations.
 * **Interactive Macro Timeline:** Features a custom HTML/CSS historical timeline highlighting key market regimes.
 * **Detailed Scenario Expander Cards:** Displays projected dollar losses, percentage drawdowns, remaining portfolio values, core triggers, and affected sectors per crisis.
