@@ -29,13 +29,3 @@ The **Quantitative Portfolio Risk Analytics Engine** allows investors to upload 
 * **Data Ingestion & Quantitative Logic:** `yfinance`, `pandas`, `numpy`
 * **Frontend UI & Layout:** `streamlit`, HTML/CSS
 * **Data Visualization:** `matplotlib`, `seaborn`
-
----
-
-## Getting Started
-
-### 1. Installation
-Clone the repository and install the dependencies:
-
-```bash
-pip install pandas yfinance numpy streamlit matplotlib seaborn
