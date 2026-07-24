@@ -49,3 +49,9 @@ pip install pandas yfinance numpy streamlit matplotlib seaborn
 
 * In the PyCharm Terminal, launch the Streamlit app:
   streamlit run app.py
+
+Upload a .csv file formatiied with Ticker and Shares columns:
+  Ticker,Shares
+  NVDA,5
+  TSLA,5
+  MSFT,5
